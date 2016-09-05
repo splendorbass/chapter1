@@ -16,6 +16,7 @@ public class ConstantTest {
 		
 		//CONST_NUMBER = 20;
 		 System.out.println(CONST_NUMBER);
+		 System.out.println("test2");
 		 
 //		 double r1=2;
 //		 double a1;
