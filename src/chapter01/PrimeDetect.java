@@ -7,7 +7,7 @@ public class PrimeDetect {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("¼Ò¼öÀÎÁö ÆÇ´ÜÇÒ ¼ıÀÚ: ");
+		System.out.print("ì†Œìˆ˜ì¸ì§€ íŒë‹¨í•  ìˆ«ì: ");
 		int num = scanner.nextInt();
 		
 		int divisor = 2;
@@ -21,9 +21,9 @@ public class PrimeDetect {
 			divisor++;
 		}
 		if(isPrime){
-			System.out.println(num+"´Â ¼Ò¼öÀÔ´Ï´Ù.");
+			System.out.println(num+"ì€ ì†Œìˆ˜ì…ë‹ˆë‹¤.");
 		}else{
-			System.out.println(num+"´Â ¼Ò¼ö°¡ ¾Æ´Õ´Ï´Ù.");
+			System.out.println(num+"ì€ ì†Œìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤.");
 		}
 		
 		
